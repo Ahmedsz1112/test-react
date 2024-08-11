@@ -1,0 +1,67 @@
+section.hero {
+    margin-top: 3rem;
+}
+
+/* 1-left section */
+
+section.hero .left-section {
+    flex-grow: 1;
+}
+
+section.hero .parent-avatar.flex {
+    align-items: end;
+    gap: 0.6rem;
+    min-height: 88px;
+}
+
+section.hero .avatar {
+    width: 88px;
+    border-radius: 50%;
+    border: 1px solid darkorange;
+    padding: 1px;
+    box-shadow: 2px 2px 40px rgba(204, 202, 202, 0.527) inset;
+}
+
+section.hero .fa-circle-check {
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+section.hero h1.title {
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+
+section.hero p.subtitle {
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+section.hero .left-section .icons a {
+    margin-right: 1.5rem;
+    font-size: 20px;
+    color: var(--subtitle);
+}
+section.hero .left-section .icons a:hover {
+    color: var(--title);
+}
+
+/* 2-right section ==> animation */
+
+/* media */
+@media (max-width: 700px){
+    section.hero h1.title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1000px){
+    section.hero .animation {
+        display: none;
+    }
+}

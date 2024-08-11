@@ -1,0 +1,152 @@
+/* =========================
+    tab;e of contents
+    ========================
+
+    1-Header Design
+    2-Button & icon
+    3-Modal == pop up
+    4-Responsive Design ( media quary )
+*/
+
+
+/*  
+    1-Header Design
+*/
+header.flex {
+    justify-content: space-between;
+    padding: 0 1.4rem;
+    margin-top: 1.2rem;
+}
+header.flex nav {
+    background: var(--bgHeader);
+    padding: .77rem 1.6rem;
+    border-radius: 55px;
+    box-shadow: 0 0 20px #3633335e;
+}
+header ul.flex{
+    gap: 16px;
+}
+header ul li a {
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+header ul li a:hover {
+    color: var(--blue);
+    opacity: 1;
+    font-size: 0.9rem;
+}
+header button {
+    font-size: 1.2rem;
+}
+header .menu {
+    display: none;
+}
+/*  
+    2-Button & icon
+*/
+
+
+header button.flex .fa-moon , header button.flex .fa-sun {
+    background-color: var(--bgHeader);
+    height: 2.4rem;
+    width: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--subtitle);
+    border: 1px solid rgba(244, 165, 95, 0.249);
+    transition: .3s;
+}
+
+header button.flex .fa-sun {
+    color: rgb(241, 189, 45);
+    box-shadow: 1px 1px 40px rgba(35,35,0,0.165);
+}
+
+
+header button.flex .fa-bars:hover , header button.flex .fa-moon:hover {
+    border-color: chocolate;
+    color: var(--title);
+}
+header .modal .fa-xmark{
+    font-size: 1.5rem;
+    color: var(--subtitle);
+    transition: .3s;
+}
+header .modal .fa-xmark:hover{
+    font-size: 1.7rem;
+    color: var(--title);
+    rotate: 180deg;
+}
+/*  
+    3-Modal == pop up
+*/
+header .fixed {
+    position: fixed;
+    inset: 0;
+    background: rgba(40, 40, 48, 0.904);
+    z-index: 11;
+    backdrop-filter: blur(4px);
+}
+header .fixed ul.modal {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secodary);
+    animation: modal .7s ;
+}
+@keyframes modal {
+    0%{
+        scale: 0;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+header .fixed ul.modal li {
+    border-bottom:  1px solid var(--border);
+    padding-bottom: .77rem;
+    padding-top: .5rem;
+}
+header .fixed ul.modal li:last-child {
+    border-bottom: none;
+}
+header .fixed ul.modal li:first-child {
+    text-align: right;
+    border-bottom:  none;
+    padding-bottom: 0;
+    padding-top: .2rem;
+}
+header .fixed ul.modal li a {
+    font-size: 1rem;
+}
+/*  
+    4-Responsive Design ( media quary )
+*/
+@media (max-width: 700px) {
+    header.flex nav {
+        display: none;
+        
+    }
+    header .menu {
+        display: block;
+        background-color: var(--bgHeader);
+        height: 2.4rem;
+        width: 2.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: var(--subtitle);
+        border: 1px solid rgba(244, 165, 95, 0.249);
+        transition: .3s;
+    }
+}
