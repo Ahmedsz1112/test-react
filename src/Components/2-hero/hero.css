@@ -22,9 +22,9 @@ section.hero .avatar {
     box-shadow: 2px 2px 40px rgba(204, 202, 202, 0.527) inset;
 }
 
-section.hero .fa-circle-check {
+section.hero .circle-check {
     color: var(--blue);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-bottom: 0.3rem;
 }
 

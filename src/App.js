@@ -5,6 +5,7 @@ import Hero from './Components/2-hero/Hero';
 import Main from './Components/3-main/Main';
 import Contact from './Components/4-contact/Contact';
 import Footer from './Components/5-footer/Footer';
+import { IoIosArrowUp } from "react-icons/io";
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
               <Footer/>
               
                 <a href='#up' style={{opacity: showScrollBTN ? 1 : 0 , transition: "0.3s"}}>
-                  <button className='scrollTotop fa-solid fa-angle-up'/>
+                  <IoIosArrowUp className='scrollTotop fa-solid fa-angle-up'/>
                 </a>
           </div>
   );

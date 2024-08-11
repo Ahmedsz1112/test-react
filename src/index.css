@@ -110,12 +110,12 @@ button:disabled {
   width: 2.6rem;
   height: 2.6rem;
   border-radius: 50%;
+  padding: 5px;
   position: fixed;
   text-align: center;
   bottom: 2rem;
   right: 3%;
   border: 1px solid rgba(255, 255, 210, 0.2);
-  font-size: 1rem;
 }
 
 .scrollTotop:hover {

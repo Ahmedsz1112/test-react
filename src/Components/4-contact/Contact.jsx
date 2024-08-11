@@ -3,6 +3,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import Lottie from "lottie-react";
 import Doneanimation from './Done.json';
 import contactanimation from './contact-us.json';
+import { FaEnvelope } from "react-icons/fa";
 import "./contact.css";
 
 const Contact= () => {
@@ -10,7 +11,7 @@ const Contact= () => {
     return(
         <section className="contact-us" id="contact">
             <h1 className="title">
-                <span className="fa-solid fa-envelope"/>
+                <FaEnvelope className="fa-envelope"/>
                 Contact us
             </h1>
             <p className="subtitle">Contact us for more information and Get notified when I publish something new</p>

@@ -48,10 +48,11 @@ header .menu {
 */
 
 
-header button.flex .fa-moon , header button.flex .fa-sun {
+header button.flex .moon , header button.flex .sun{
     background-color: var(--bgHeader);
     height: 2.4rem;
     width: 2.4rem;
+    padding: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,22 +62,22 @@ header button.flex .fa-moon , header button.flex .fa-sun {
     transition: .3s;
 }
 
-header button.flex .fa-sun {
+header button.flex .sun {
     color: rgb(241, 189, 45);
     box-shadow: 1px 1px 40px rgba(35,35,0,0.165);
 }
 
 
-header button.flex .fa-bars:hover , header button.flex .fa-moon:hover {
+header button.flex .menu:hover , header button.flex .moon:hover {
     border-color: chocolate;
     color: var(--title);
 }
-header .modal .fa-xmark{
+header .modal .xmark{
     font-size: 1.5rem;
     color: var(--subtitle);
     transition: .3s;
 }
-header .modal .fa-xmark:hover{
+header .modal .xmark:hover{
     font-size: 1.7rem;
     color: var(--title);
     rotate: 180deg;
@@ -141,6 +142,7 @@ header .fixed ul.modal li a {
         background-color: var(--bgHeader);
         height: 2.4rem;
         width: 2.4rem;
+        padding: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -148,5 +150,9 @@ header .fixed ul.modal li a {
         color: var(--subtitle);
         border: 1px solid rgba(244, 165, 95, 0.249);
         transition: .3s;
+    }
+    header .menu:hover{
+        border-color: chocolate;
+        color: var(--title);
     }
 }
