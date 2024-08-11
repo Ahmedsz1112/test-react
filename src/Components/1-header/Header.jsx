@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { FaMoon, FaList } from "react-icons/fa";
+import { IoMdCloseCircleOutline } from "react-icons/io";
+import { CiSun } from "react-icons/ci";
 import './header.css'
 const Header = () => {
     const [showModal, setshowModal] = useState(false);
@@ -17,8 +20,9 @@ const Header = () => {
         <header className="flex">
             <button onClick={() => {
                 setshowModal(true)
-            }} className="menu fa-solid fa-bars"/>
-
+            }} className="menu fa-solid fa-bars">
+                <FaList/>
+            </button>
             <div/>
 
             <nav >
@@ -37,7 +41,7 @@ const Header = () => {
                 setTheme(localStorage.getItem("currentMode"))
 
 
-            }} >{theme === "dark" ? <span className="fa-regular fa-moon"></span>: <span className="fa-regular fa-sun"></span>}
+            }} >{theme === "dark" ? <FaMoon className="fa-moon"/>: <CiSun className="fa-sun"/>}
             </button>
 
 
@@ -48,7 +52,9 @@ const Header = () => {
                     <li>
                         <button onClick={() => {
                             setshowModal(false)
-                        }} className="fa-solid fa-xmark"/>
+                        }}>
+                            <IoMdCloseCircleOutline className="fa-xmark"/>
+                        </button>
                     </li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#artical">Articals</a></li>
