@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { GoLink } from "react-icons/go";
+import { FaGithub, FaArrowRight  } from "react-icons/fa6";
 import "./main.css";
 
 const  myProject = [{projectTitle: "Food" , category: "css",imgPath: "./food7.jpeg" , view:"https://ahmedsz1112.github.io/food/" , repo: "https://github.com/Ahmedsz1112/food.git"  },
@@ -60,12 +62,12 @@ const Main = () => {
                                 <p className="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi ut ad. Minus, voluptatem accusamus!</p>
                                 <div className="flex icons">
                                     <div style={{gap: '11px'}} className="flex ">
-                                        <a href={item.repo} target="_blank"><i class="fa-solid fa-link"/></a>
-                                        <a href={item.view} target="_blank"><i class="fa-brands fa-github"/></a>
+                                        <a href={item.repo} target="_blank"><GoLink class="fa-link"/></a>
+                                        <a href={item.view} target="_blank"><FaGithub class="fa-github"/></a>
                                     </div>
                                     <a className="link flex" href="">
                                         more 
-                                        <i style={{alignSelf: "end"}} class="fa-solid fa-arrow-right"/>
+                                        <FaArrowRight style={{alignSelf: "end"}} class="fa-arrow-right"/>
                                     </a>
                                 </div> 
                             </div>
