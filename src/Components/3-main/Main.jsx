@@ -4,7 +4,7 @@ import "./main.css";
 
 const  myProject = [{projectTitle: "Food" , category: "css",imgPath: "./food7.jpeg" , view:"https://ahmedsz1112.github.io/food/" , repo: "https://github.com/Ahmedsz1112/food.git"  },
                     {projectTitle: "Solar", category: "css" ,imgPath: "./solar.png" , view:"https://ahmedsz1112.github.io/Web-Masters/" , repo: "https://github.com/Ahmedsz1112/Web-Masters.git"  },
-                    {projectTitle: "Landing Page", category: "css" ,imgPath: "./image1.png" , view:"https://ahmedsz1112.github.io/task1/" , repo: "https://github.com/Ahmedsz1112/task1.git"  },
+                    {projectTitle: "Landing Page", category: "css" ,imgPath: "./Image1.png" , view:"https://ahmedsz1112.github.io/task1/" , repo: "https://github.com/Ahmedsz1112/task1.git"  },
                     {projectTitle: "E-commerce", category: "bootstrap" ,imgPath: "./01.jpg" , view:"https://ahmedsz1112.github.io/ecimmerce-app/" , repo: "https://github.com/Ahmedsz1112/ecimmerce-app.git"  },
                     {projectTitle: "weather-app", category: "js" ,imgPath: "./weather.jpg" , view:"https://ahmedsz1112.github.io/weather-app/" , repo: "https://github.com/Ahmedsz1112/weather-app.git"  },
                     {projectTitle: "Cruds", category: "js" ,imgPath: "./coffee1.jpg" , view:"https://ahmedsz1112.github.io/my-cruds/" , repo: "https://github.com/Ahmedsz1112/my-cruds.git"  }
