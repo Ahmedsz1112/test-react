@@ -12,7 +12,7 @@ const Contact= () => {
         <section className="contact-us" id="contact">
             <h1 className="title">
                 <FaEnvelope className="fa-envelope"/>
-                Contact us
+                Contact me
             </h1>
             <p className="subtitle">Contact us for more information and Get notified when I publish something new</p>
             <div style={{justifyContent: "space-between"}} className="flex">

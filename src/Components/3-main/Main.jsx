@@ -9,7 +9,8 @@ const  myProject = [{projectTitle: "Food" , category: "css",imgPath: "./food7.jp
                     {projectTitle: "Landing Page", category: "css" ,imgPath: "./2.png" , view:"https://ahmedsz1112.github.io/task1/" , repo: "https://github.com/Ahmedsz1112/task1.git"  },
                     {projectTitle: "E-commerce", category: "bootstrap" ,imgPath: "./01.jpg" , view:"https://ahmedsz1112.github.io/ecimmerce-app/" , repo: "https://github.com/Ahmedsz1112/ecimmerce-app.git"  },
                     {projectTitle: "weather-app", category: "js" ,imgPath: "./weather.jpg" , view:"https://ahmedsz1112.github.io/weather-app/" , repo: "https://github.com/Ahmedsz1112/weather-app.git"  },
-                    {projectTitle: "Cruds", category: "js" ,imgPath: "./coffee1.jpg" , view:"https://ahmedsz1112.github.io/my-cruds/" , repo: "https://github.com/Ahmedsz1112/my-cruds.git"  }
+                    {projectTitle: "Cruds", category: "js" ,imgPath: "./coffee1.jpg" , view:"https://ahmedsz1112.github.io/my-cruds/" , repo: "https://github.com/Ahmedsz1112/my-cruds.git"  },
+                    {projectTitle: "E-commerce Shopping", category: "react" ,imgPath: "https://www.liveadmins.com/wp-content/uploads/2015/04/ecommerce-2015.jpg" , view:"https://direful-tray.surge.sh/" , repo: "https://github.com/Ahmedsz1112/my-cruds.git"  }
 ]
 
 const Main = () => {
@@ -62,10 +63,10 @@ const Main = () => {
                                 <p className="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi ut ad. Minus, voluptatem accusamus!</p>
                                 <div className="flex icons">
                                     <div style={{gap: '11px'}} className="flex ">
-                                        <a href={item.repo} target="_blank"><GoLink class="fa-link"/></a>
-                                        <a href={item.view} target="_blank"><FaGithub class="fa-github"/></a>
+                                        <a href={item.repo} target="blank"><GoLink className="fa-link"/></a>
+                                        <a href={item.view} target="blank"><FaGithub className="fa-github"/></a>
                                     </div>
-                                    <a className="link flex" href="">
+                                    <a className="link flex" href="#">
                                         more 
                                         <FaArrowRight style={{alignSelf: "end"}} class="fa-arrow-right"/>
                                     </a>

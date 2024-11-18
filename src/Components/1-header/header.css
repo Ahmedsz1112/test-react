@@ -21,7 +21,6 @@ header.flex nav {
     background: var(--bgHeader);
     padding: .77rem 1.6rem;
     border-radius: 55px;
-    box-shadow: 0 0 20px #3633335e;
 }
 header ul.flex{
     gap: 16px;
