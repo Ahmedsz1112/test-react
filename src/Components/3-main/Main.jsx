@@ -10,7 +10,7 @@ const  myProject = [{projectTitle: "Food" , category: "css",imgPath: "./food7.jp
                     {projectTitle: "E-commerce", category: "bootstrap" ,imgPath: "./01.jpg" , view:"https://ahmedsz1112.github.io/ecimmerce-app/" , repo: "https://github.com/Ahmedsz1112/ecimmerce-app.git"  },
                     {projectTitle: "weather-app", category: "js" ,imgPath: "./weather.jpg" , view:"https://ahmedsz1112.github.io/weather-app/" , repo: "https://github.com/Ahmedsz1112/weather-app.git"  },
                     {projectTitle: "Cruds", category: "js" ,imgPath: "./coffee1.jpg" , view:"https://ahmedsz1112.github.io/my-cruds/" , repo: "https://github.com/Ahmedsz1112/my-cruds.git"  },
-                    {projectTitle: "E-commerce Shopping", category: "react" ,imgPath: "https://www.liveadmins.com/wp-content/uploads/2015/04/ecommerce-2015.jpg" , view:"https://direful-tray.surge.sh/" , repo: "https://github.com/Ahmedsz1112/E-Commerce-my-app.git"  }
+                    {projectTitle: "E-commerce Shopping", category: "react" ,imgPath: "https://www.liveadmins.com/wp-content/uploads/2015/04/ecommerce-2015.jpg" , view:"https://ecommerce-shoping-weld.vercel.app/" , repo: "https://github.com/Ahmedsz1112/ecommerce-shoping.git"  }
 ]
 
 const Main = () => {
